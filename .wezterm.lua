@@ -8,7 +8,9 @@ config.background = {
 	{
 		source = {
 			-- File = '/Users/e/Documents/term-bg.png'
-			File = "/Users/e/Documents/nebula.png",
+			--File = "/Users/e/Documents/nebula.png",
+			--File = "/Users/e/Documents/milkyway1.png",
+			File = "/Users/e/Documents/milkyway2.png",
 		},
 		hsb = { brightness = 0.08 },
 	},
@@ -23,9 +25,9 @@ config.scrollback_lines = 500000
 config.hide_tab_bar_if_only_one_tab = true
 config.window_decorations = "RESIZE"
 config.window_padding = {
-	left = 20,
-	right = 20,
-	top = 40,
+	left = 8,
+	right = 8,
+	top = 20,
 	bottom = 20,
 }
 
